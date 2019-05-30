@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">龙虎直播</string>
+    <string name="sceneFragment">现场</string>
+    <string name="homefragment">首页</string>
+    <string name="reviwefragment">回顾</string>
+    <string name="setfragment">设置</string>
+    <string name="meframent">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--下拉刷新与加载-->
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="listview_header_hint_normal">轻轻下拉，刷新精彩</string>
+    <string name="listview_header_hint_release">该放手了，我要刷新啦</string>
+    <string name="listview_header_last_time">最后更新:</string>
+    <string name="list_footer_loading">正在加载中...</string>
+    <string name="list_footer_end">加载完成</string>
+    <string name="list_footer_network_error">点击重新加载</string>
+    <string name="text_day_ago">天前</string>
+    <string name="text_hour_ago">小时前</string>
+    <string name="text_just">刚刚</string>
+    <string name="text_minute_ago">分钟前</string>
+    <string name="text_month_ago">个月前</string>
+    <string name="text_seconds_ago">秒前</string>
+    <string name="text_year_ago">年前</string>
+
+    <string-array name="user_func_list">
+        <item>获取用户信息</item>
+        <item>批量获取用户的粉丝数、关注数、微博数</item>
+    </string-array>
+    <string-array name="statuses_func_list">
+        <item>获取当前登录用户及其所关注用户的最新微博</item>
+        <item>获取 @ 当前用户的最新微博</item>
+        <item>调用 update 函数发送纯文本信息的微博</item>
+        <item>调用 upload 函数发送带本地图片的微博</item>
+        <item>调用 uploadUrlText 函数发送带网络图片的微博</item>
+    </string-array>
+    <string-array name="comment_func_list">
+        <item>获取@到我的评论</item>
+        <item>获取我发出的评论列表</item>
+        <item>获取当前登录用户的最新评论</item>
+    </string-array>
+    <string-array name="favorite_func_list">
+        <item>获取当前用户的收藏列表</item>
+        <item>获取当前登录用户的收藏标签</item>
+    </string-array>
+    <string name="title_activity_bind_phone">绑定手机号</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_regist">Regist in</string>
+    <string name="title_activity_phone_login">PhoneLoginActivity</string>
+    <string name="title_activity_find_pwd">FindPwdActivity</string>
+    <string name="upload">上传</string>
+    <string name="cancel_upload">取消上传</string>
+    <string name="if_edit_video">是否编辑视频</string>
+    <string name="dlg_yes">是</string>
+    <string name="dlg_no">否</string>
+
+    <string name="title_record">视频拍摄</string>
+    <string name="title_audio_record">音频录制</string>
+    <string name="title_compose">视频拼接</string>
+    <string name="title_image_compose">图片合成</string>
+    <string name="title_player">视频播放</string>
+    <string name="title_screen_record">屏幕录制</string>
+    <string name="title_transcode">视频转码</string>
+    <string name="title_trim">视频剪辑</string>
+    <string name="title_gif">制作GIF动画</string>
+    <string name="title_show_gif">显示GIF动画</string>
+    <string name="title_start_compose">启动合成</string>
+    <string name="title_video_size">视频尺寸</string>
+    <string name="title_video_bitrate">视频码率</string>
+    <string name="title_audio_file_name">音频文件：</string>
+    <string name="title_add_image">添加图片</string>
+    <string name="title_add_music">添加音乐</string>
+    <string name="title_ar_effect">AR 特效</string>
+    <string name="title_from_draft_box">草稿箱</string>
+    <string name="title_all_drafts">草稿列表</string>
+
+    <string name="dlg_save_draft_title">输入草稿标题</string>
+    <string name="dlg_save_draft_yes">保存</string>
+    <string name="toast_draft_title_exist">已存在相同标题的草稿</string>
+    <string name="toast_draft_save_success">草稿保存成功</string>
+    <string name="toast_draft_save_fail">草稿保存失败</string>
+    <string name="toast_draft_recover_success">草稿恢复成功</string>
+    <string name="toast_draft_recover_fail">草稿恢复失败</string>
+    <string name="dlg_delete_draft">确认删除草稿</string>
+
+    <string name="desc_duration">持续时间</string>
+    <string name="desc_transition_time">转场时间</string>
+    <string name="desc_second">秒</string>
+    <string name="desc_ms">ms</string>
+
+    <string name="ar_record">开始录制</string>
+    <string name="ar_stop">停止录制</string>
+    <string name="speed_super_slow">极慢"</string>
+    <string name="speed_slow">慢"</string>
+    <string name="speed_normal">正常"</string>
+    <string name="speed_fast">快"</string>
+    <string name="speed_super_fast">极快"</string>
+</resources>

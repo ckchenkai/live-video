@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#f1f1f1">
+    <LinearLayout
+        android:id="@+id/ll_footer_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_footer_error"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/network_error" />
+            <!-- <ProgressBar
+                 android:id="@+id/pb_footer_loading"
+                 android:layout_width="35dp"
+                 android:layout_height="35dp"
+                 android:layout_marginRight="4dp"/>-->
+            <ProgressBar
+                android:id="@+id/iv_footer_loading"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tv_footer_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="@string/list_footer_loading"
+            android:textSize="15sp"
+            android:textColor="@color/tab_select_color"/>
+    </LinearLayout>
+</RelativeLayout>

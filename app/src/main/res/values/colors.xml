@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="msg_num">#F01D1D</color>
+    <color name="white">#ffffff</color>
+    <color name="main_bottombar_inactive">#666666</color>
+    <color name="main_bottombar_active">#e4961a</color>
+    <color name="divider">#f1f1f1</color>
+    <color name="dividerpersional">#f4f4f4</color>
+    <color name="toolbar_divider">#eaeaea</color>
+    <color name="divider2">#f5f5f5</color>
+    <color name="half_balck">#55000000</color>
+    <color name="vote_ing_bg">#fa6f3a</color>
+    <color name="black">#000000</color>
+    <color name="tab_select_color">#333333</color>
+    <color name="tab_default_color">#999999</color>
+    <color name="common_text_black">#000</color>
+    <color name="common_text">#666666</color>
+    <color name="divider_line">#cccccc</color>
+    <color name="dialog_pressed">#ededed</color>
+    <color name="setting_off">#CD805B</color>
+    <color name="setting_off_on_back">#663620</color>
+    <color name="transparent">#00000000</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="title_black">#333333</color>
+    <!--刷新颜色-->
+    <color name="drop_down_list_footer_font_color">#A2A3A2</color>
+    <color name="gray">#ff808080</color>
+    <color name="dark">#bb8aa0</color>
+    <color name="set_bg_clolr">#fe7e00</color>
+    <color name="orange_colorPrimaryDark">#e4961a</color>
+    <color name="main_me_bg">#fc7e01</color>
+</resources>
